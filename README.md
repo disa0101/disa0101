@@ -25,7 +25,7 @@ class KeywordMod(loader.Module):
     @loader.unrestricted
     async def purrcmd(self, message: Message):
         """Sends 'purr' voice message"""
-        args = utils.get_args_raw(message) or "<i>🐈 мяу мадафака</i>"
+        args = utils.get_args_raw(message) or "<i></i>"
         purrs = [
             "https://github.com/hikariatama/assets/raw/master/ne6O.mp3",
             "https://github.com/hikariatama/assets/raw/master/Kc0L.mp3",
